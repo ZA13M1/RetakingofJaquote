@@ -16,7 +16,7 @@ public class PlayerControls : MonoBehaviour
     {
         //player movement
         float inputX = Input.GetAxis("Horizontal");
-        float inputY = input.GetAxis("Vertical");
+        float inputY = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(speed.x * inputX, speed.y * inputY, 0);
 
