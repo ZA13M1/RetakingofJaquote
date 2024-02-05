@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    private Camera cam;
-    public float speed = .0f;
-    private MeshRenderer _renderer;
-        // Start is called before the first frame update
-        void Start()
-        {
-            cam = Camera.main;
-            _renderer = GetComponent<MeshRenderer>();
-        }
+    public Transform target;
+    public Vector3 offset;
+    public float damping;
 
-             // Update is called once per frame
-            void Update()
-            {
-                _renderer.material.mainTextureOffset = new Vector2(cam.transform.position.x * 0.05f, cam.transform.position.y * 0.05f);
-            }
+    private Vector3 velocity = Vector3.zero;
+    void FixedUpdate()
+    {
+        Vector3 movePosition = target.position + offset;
+        transform.position = Vector3.SmoothDamp(transform.position, movePosition, ref velocity, damping); 
+    }
 }
