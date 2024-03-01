@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    public GameObject Prompt;
     public Vector2 speed = new Vector2(50, 50);
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,22 @@ public class PlayerControls : MonoBehaviour
         movement *= Time.deltaTime;
 
         transform.Translate(movement);
+    }
+
+    // On Enter press, triggers prompt.
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "Interactable")
+        {
+            Prompt.SetActive(true);
+        }
+    }
+    
+    void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.tag == "Interactable")
+        {
+            Prompt.SetActive(false);
+        }
     }
 }
