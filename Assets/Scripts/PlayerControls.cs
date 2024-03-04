@@ -42,4 +42,5 @@ public class PlayerControls : MonoBehaviour
             Prompt.SetActive(false);
         }
     }
+
 }
