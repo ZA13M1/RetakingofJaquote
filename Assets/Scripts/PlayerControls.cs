@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
     public GameObject Prompt;
-    public Vector2 speed = new Vector2(50, 50);
+    public int speed = 5;
+    public Rigidbody2D rBody;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +20,14 @@ public class PlayerControls : MonoBehaviour
         float inputX = Input.GetAxis("Horizontal");
         float inputY = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(speed.x * inputX, speed.y * inputY, 0);
+        rBody.AddForce(Vector2.up * inputY * speed);
+        rBody.AddForce(Vector2.right * inputX * speed);
+
+        /*Vector3 movement = new Vector3(speed.x * inputX, speed.y * inputY, 0);
 
         movement *= Time.deltaTime;
 
-        transform.Translate(movement);
+        transform.Translate(movement); */
     }
 
     // On Enter press, triggers prompt.
