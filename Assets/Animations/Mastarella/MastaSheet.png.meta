@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c58c983c12e9524448eca4089ee56a1d
+guid: f4b120a88eda00644ab3665a08d0c50c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_0
+      name: MastaSheet_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 286
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc15f6f68532674bb17726ddc3a9c67
+      internalID: 1341973046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MastaSheet_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 287
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a981bef6382f9f49ac15ed79ec58961
+      internalID: -1809960204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MastaSheet_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 288
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d102071b4507488e1c04f77d591d0
+      internalID: -2016324468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MastaSheet_3
       rect:
         serializedVersion: 2
         x: 41
@@ -137,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7fb86a01e226e45946ab653b5b0708
-      internalID: 1285263275
+      spriteID: 42484effddfc94e4ab1f96d56a615541
+      internalID: 1924095013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_1
+      name: MastaSheet_4
       rect:
         serializedVersion: 2
         x: 171
-        y: 157
+        y: 159
         width: 39
-        height: 83
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,18 +221,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9509d1b337f13e64783c7ec4182012bf
-      internalID: -1409802972
+      spriteID: 2a6f758d7debe4841abcc9a7fbfcc275
+      internalID: 249054391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_2
+      name: MastaSheet_5
       rect:
         serializedVersion: 2
-        x: 301
-        y: 158
+        x: 306
+        y: 156
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798e8e2533488e48b4df2ac828c7a2c
+      internalID: 317873942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MastaSheet_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 28
         width: 39
         height: 85
       alignment: 0
@@ -179,59 +263,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a5eabacb33c5d1499759184d494eac5
-      internalID: 1000972739
+      spriteID: 98252d1a48470d9429169c68325c28de
+      internalID: -237919296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 29
-        width: 39
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a90fd3a73255f045a4b013cf26e7549
-      internalID: 45156785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_4
+      name: MastaSheet_7
       rect:
         serializedVersion: 2
         x: 171
-        y: 28
-        width: 39
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8aea79b7a03048d45a3eebcfed9de87d
-      internalID: 358511469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 301
         y: 27
         width: 39
         height: 84
@@ -242,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cc92b5f17568264f8e37f0cc5ffb50f
-      internalID: 1023416080
+      spriteID: 260eb4f72247c31429ca89d6d198a234
+      internalID: -1397645185
       vertices: []
       indices: 
       edges: []
@@ -259,12 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_0: 1285263275
-      spritesheet_1: -1409802972
-      spritesheet_2: 1000972739
-      spritesheet_3: 45156785
-      spritesheet_4: 358511469
-      spritesheet_5: 1023416080
+      MastaSheet_0: 1341973046
+      MastaSheet_1: -1809960204
+      MastaSheet_2: -2016324468
+      MastaSheet_3: 1924095013
+      MastaSheet_4: 249054391
+      MastaSheet_5: 317873942
+      MastaSheet_6: -237919296
+      MastaSheet_7: -1397645185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

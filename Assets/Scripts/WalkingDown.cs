@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WalkingUP : MonoBehaviour
+public class WalkingDown : MonoBehaviour
 {
     public Animator anim;
     private void Start()
@@ -11,7 +11,7 @@ public class WalkingUP : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-            anim.SetBool("IsWalkingUp", true);
+        if (Input.GetKey(KeyCode.S))
+            anim.SetBool("IsWalkingDown", true);
     }
 }
